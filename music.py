@@ -3,6 +3,7 @@ import zipfile
 
 files = os.listdir()
 files.remove('music.py')
+files.remove('meta.py')
 files.remove('.git')        # comment out this line and line below if you didn't clone from git
 files.remove('README.md')
 strange = input('Are there underscores instead of spaces in filenames?(y/n) ')
