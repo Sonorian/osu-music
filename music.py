@@ -4,6 +4,7 @@ import zipfile
 files = os.listdir()
 files.remove('music.py')
 files.remove('.git')
+files.remove('README.md')
 strange = input('Are there underscores instead of spaces in filenames?(y/n) ')
 
 for file in files:
